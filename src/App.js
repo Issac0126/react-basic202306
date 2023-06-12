@@ -5,6 +5,7 @@ import Hello from './Hello';
 import ChangeEvent from './component/chap01_event/ChangeEvent';
 import ClickEvent from './component/chap01_event/ClickEvent';
 import SubmitEvent from './component/chap01_event/SubmitEvent';
+import FoodList from './component/chap02_props/FoodList';
 
 
 
@@ -15,7 +16,7 @@ function App() {
 
   return (
     <>
-      <SubmitEvent />
+      <FoodList />
     </>
   );
 }
