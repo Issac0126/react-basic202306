@@ -1,6 +1,7 @@
 import React from 'react'
 
 //구조 분해 할당
+//const FoodItem = function() {
 const FoodItem = ({foodId : fId, foodName : fName, price}) => {
 
 
