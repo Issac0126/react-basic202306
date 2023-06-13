@@ -43,7 +43,7 @@ const FoodList = () => {
                     <FoodItem foodName={f.fName} price={f.price} foodId={f.id}/>)
         }
         
-        
+
         
         
         {/* <FoodItem foodName='짜장면' price={6000} foodId={'chinese'} />
@@ -53,4 +53,4 @@ const FoodList = () => {
   )
 }
 
-export default FoodList
+export default FoodList;
